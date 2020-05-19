@@ -34,8 +34,8 @@ export default {
         latitude: faker2.address.latitude(),
         longitude: faker2.address.longitude()
       },
-      avatar: `/src/assets/images/image${1 + Math.floor(Math.random() * 242)}.jpg`,
-      finger: `/src/assets/fingers/finger${1 + Math.floor(Math.random() * 14)}.png`,
+      avatar: `src/assets/images/image${1 + Math.floor(Math.random() * 242)}.jpg`,
+      finger: `src/assets/fingers/finger${1 + Math.floor(Math.random() * 14)}.png`,
       clusters: {
         origin: pick(origins),
         dataDriven: pick(dataDrivenApproach),

@@ -69,10 +69,10 @@ export default {
           latitude: faker.address.latitude(),
           longitude: faker.address.longitude(),
         },
-        avatar: `/src/assets/images/image${
+        avatar: `src/assets/images/image${
           1 + Math.floor(Math.random() * 242)
         }.jpg`,
-        finger: `/src/assets/fingers/finger${
+        finger: `src/assets/fingers/finger${
           1 + Math.floor(Math.random() * 14)
         }.png`,
         clusters: {
