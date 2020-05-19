@@ -1,0 +1,201 @@
+::selection {
+  background-color: red;
+  color: #fff;
+}
+
+html,
+body {
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: black;
+  font-family: monospace;
+  scrollbar-width: none;
+}
+
+#app {
+  min-height: 100vh;
+  min-width: 100vmin;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pre-container {
+  display: grid;
+  color: red;
+  margin: 1rem;
+}
+
+pre {
+  overflow: hidden;
+}
+
+pre a {
+  color: red;
+}
+
+pre a:visited {
+  color: blue;
+}
+
+.main {
+  color: black;
+}
+
+.citizen img {
+  max-width: 10rem;
+  max-height: 100%;
+  object-fit: contain;
+  filter: grayscale(1) brightness(2);
+}
+
+.citizen .map {
+  position: absolute;
+  width: 100vmin;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.citizen .citizen-content {
+  position: relative;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+  mix-blend-mode: multiply;
+}
+
+.citizen pre,
+.citizen .pre {
+  color: #333;
+  white-space: pre-wrap;
+}
+
+.citizen pre span {
+  background: white;
+}
+
+.citizen .nav {
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+
+.citizen .nav pre a {
+  color: black;
+}
+
+.citizen .nav pre a:hover {
+  color: red;
+}
+
+.citizen .nav pre a:visited {
+  color: red;
+}
+
+.citizen .pre-container {
+  mix-blend-mode: difference;
+}
+
+.citizen .pre {
+  font-family: monospace;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-gap: 2px;
+}
+
+.chart {
+  z-index: 100;
+  position: relative;
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
+
+.chart text {
+  fill: white;
+  font-size: 0.9rem;
+}
+
+.rv-radar-chart-polygon {
+  stroke: rgb(255, 255, 255) !important;
+  fill: rgb(255, 255, 0) !important;
+  stroke-width: 0.5px !important;
+  stroke-opacity: 1 !important;
+  fill-opacity: 1 !important;
+}
+
+.chart svg {
+  overflow: visible;
+}
+
+.finger {
+  mix-blend-mode: darken;
+  z-index: 100;
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+.about pre {
+  white-space: pre-wrap;
+}
+
+.about {
+  min-height: 90vh;
+  width: 90vmin;
+  padding: 1rem;
+  overflow: hidden;
+  font-size: 130%;
+}
+
+.about .fingers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: end;
+  grid-gap: 2rem;
+}
+
+.about img,
+.about video {
+  width: 100%;
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+.about .screenshots {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: end;
+  justify-items: center;
+  grid-gap: 2rem;
+}
+
+.about .screenshots > div {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 1rem;
+}
+
+.about .screenshots.a > div {
+  grid-template-rows: 1fr auto;
+}
+
+.about .screenshots.a > div:first-child img {
+  width: 10rem;
+}
