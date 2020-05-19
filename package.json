@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "@eliaspourquoi/heritage": "^0.1.8",
+    "@eliaspourquoi/heritage": "^0.1.9",
     "esdev": "^0.1.0"
   },
   "webDependencies": {

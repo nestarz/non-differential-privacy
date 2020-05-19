@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@eliaspourquoi/heritage@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@eliaspourquoi/heritage/-/heritage-0.1.8.tgz#9f7afb604d8c4908ae6cbc43eb2ac53d775205bb"
-  integrity sha512-02p87wChvhvs0DftoBqtbQiaAJrfJXlI7yfPgxdLkLvOH0A2aWZzQLryjmtXRvxpryEznGatfYNHbWUKqvRfJA==
+"@eliaspourquoi/heritage@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@eliaspourquoi/heritage/-/heritage-0.1.9.tgz#9d996daccd53cb599e84cf165a907fc102f85c5b"
+  integrity sha512-S+bpLdGqaH05+EfUTGfvq72wR8dKVn+VwHVQbqlElIiVKnf0uEjjOEpUaw3Og3deZGzSScxZGV/ReMKBNQGPEA==
   dependencies:
     acorn "^7.2.0"
     node-fetch "^2.6.0"
