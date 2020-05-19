@@ -50,7 +50,7 @@ export default () => {
         speed={1}
         offset={2}
       >
-        <img src="/src/assets/screenshots/AC75-2621.jpeg"></img>
+        <img src="src/assets/screenshots/AC75-2621.jpeg"></img>
         <pre>
           {`Artist Donald Davis’ illustration of the Stanford torus, a futurist
            concept that inspired Elysium’s space station.  
@@ -62,7 +62,7 @@ export default () => {
             
             `}
         </pre>
-        <img src="/src/assets/screenshots/Bwaf9bo.jpg" />
+        <img src="src/assets/screenshots/Bwaf9bo.jpg" />
         <pre>
           {`WoW Classic (7th November 2018) — 
           Graphics Settings: Classic Mode — Blizzard
@@ -76,12 +76,12 @@ export default () => {
           `}
         </pre>
         <div>
-        <img src="/src/assets/screenshots/Screenshot 2020-05-19 at 11.35.57.png" />
-        <img src="/src/assets/screenshots/Screenshot 2020-05-19 at 11.36.15.png" />
+        <img src="src/assets/screenshots/Screenshot 2020-05-19 at 11.35.57.png" />
+        <img src="src/assets/screenshots/Screenshot 2020-05-19 at 11.36.15.png" />
           </div>
         <Type string={aboutString} speed={1} offset={2}>
           <div className="screenshots">
-            <img src={"/src/assets/images/image34.jpg"} />
+            <img src={"src/assets/images/image34.jpg"} />
   <pre>{`thispersondoesnotexist.com`}</pre>
             <div>
               <img
@@ -96,7 +96,7 @@ export default () => {
           </div>
           <div className="fingers">
             {[...Array(14).keys()].map((i) => (
-              <img src={`/src/assets/fingers/finger${1 + i}.png`} />
+              <img src={`src/assets/fingers/finger${1 + i}.png`} />
             ))}
           </div>
           <div className="screenshots a">
@@ -139,7 +139,7 @@ export default () => {
 
                 `}</pre>}
                 <img
-                  src={`/src/assets/screenshots/x${i}.${
+                  src={`src/assets/screenshots/x${i}.${
                     i === 0 ? "gif" : "png"
                   }`}
                 />
@@ -154,7 +154,7 @@ export default () => {
           </div>
           <video
             controls
-            src="/video-src/NonDifferentialPrivacy-170520.mp4"
+            src="video-src/NonDifferentialPrivacy-170520.mp4"
           ></video>
         </Type>
       </Type>

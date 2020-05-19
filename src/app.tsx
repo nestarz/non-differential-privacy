@@ -21,7 +21,7 @@ const HomeAfterInteraction = ({ ...props }) => (
 
 export default () => (
   <div id="app">
-    <Router>
+    <Router basepath={location.pathname}>
       <HomeAfterInteraction path="/" />
       <About path="/about" />
       <Citizen path="/:id" />

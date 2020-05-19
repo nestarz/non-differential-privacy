@@ -41,7 +41,7 @@ export default () => {
     speed: 1,
     offset: 2
   }, React.createElement("img", {
-    src: "/src/assets/screenshots/AC75-2621.jpeg"
+    src: "src/assets/screenshots/AC75-2621.jpeg"
   }), React.createElement("pre", null, `Artist Donald Davis’ illustration of the Stanford torus, a futurist
            concept that inspired Elysium’s space station.  
 
@@ -51,7 +51,7 @@ export default () => {
             
             
             `), React.createElement("img", {
-    src: "/src/assets/screenshots/Bwaf9bo.jpg"
+    src: "src/assets/screenshots/Bwaf9bo.jpg"
   }), React.createElement("pre", null, `WoW Classic (7th November 2018) — 
           Graphics Settings: Classic Mode — Blizzard
           
@@ -62,9 +62,9 @@ export default () => {
           
           
           `), React.createElement("div", null, React.createElement("img", {
-    src: "/src/assets/screenshots/Screenshot 2020-05-19 at 11.35.57.png"
+    src: "src/assets/screenshots/Screenshot 2020-05-19 at 11.35.57.png"
   }), React.createElement("img", {
-    src: "/src/assets/screenshots/Screenshot 2020-05-19 at 11.36.15.png"
+    src: "src/assets/screenshots/Screenshot 2020-05-19 at 11.36.15.png"
   })), React.createElement(Type, {
     string: aboutString,
     speed: 1,
@@ -72,7 +72,7 @@ export default () => {
   }, React.createElement("div", {
     className: "screenshots"
   }, React.createElement("img", {
-    src: "/src/assets/images/image34.jpg"
+    src: "src/assets/images/image34.jpg"
   }), React.createElement("pre", null, `thispersondoesnotexist.com`), React.createElement("div", null, React.createElement("img", {
     src: "https://upload.wikimedia.org/wikipedia/fr/thumb/6/6b/Papers_Please_Logo.svg/1280px-Papers_Please_Logo.svg.png",
     style: {
@@ -86,7 +86,7 @@ export default () => {
   }))), React.createElement("div", {
     className: "fingers"
   }, [...Array(14).keys()].map((i) => React.createElement("img", {
-    src: `/src/assets/fingers/finger${1 + i}.png`
+    src: `src/assets/fingers/finger${1 + i}.png`
   }))), React.createElement("div", {
     className: "screenshots a"
   }, [...Array(9).keys()].map((i) => React.createElement("div", null, i === 1 && React.createElement("pre", null, `
@@ -125,7 +125,7 @@ export default () => {
 
 
                 `), React.createElement("img", {
-    src: `/src/assets/screenshots/x${i}.${i === 0 ? "gif" : "png"}`
+    src: `src/assets/screenshots/x${i}.${i === 0 ? "gif" : "png"}`
   }), texts[i] && React.createElement("div", {
     className: "text",
     dangerouslySetInnerHTML: {
@@ -133,6 +133,6 @@ export default () => {
     }
   })))), React.createElement("video", {
     controls: true,
-    src: "/video-src/NonDifferentialPrivacy-170520.mp4"
+    src: "video-src/NonDifferentialPrivacy-170520.mp4"
   }))));
 };

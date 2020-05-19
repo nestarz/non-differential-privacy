@@ -14,7 +14,9 @@ const HomeAfterInteraction = ({...props}) => React.createElement(FirstInteractio
 }));
 export default () => React.createElement("div", {
   id: "app"
-}, React.createElement(Router, null, React.createElement(HomeAfterInteraction, {
+}, React.createElement(Router, {
+  basepath: location.pathname
+}, React.createElement(HomeAfterInteraction, {
   path: "/"
 }), React.createElement(About, {
   path: "/about"

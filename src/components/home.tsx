@@ -5,7 +5,7 @@ import { augmentedString } from "./nav.tsx";
 import useAudio from "../hooks/useAudio.ts";
 
 export default () => {
-  const audio = useAudio("/src/assets/sounds/startup-sound.mp3");
+  const audio = useAudio("src/assets/sounds/startup-sound.mp3");
 
   const [ready, setReady] = useState(false);
   useEffect(() => {
