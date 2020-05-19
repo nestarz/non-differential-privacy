@@ -1,8 +1,8 @@
 import React, {useRef} from "react";
 import {navigate} from "@reach/router";
-import Type from "./../../../../src/components/type.tsx";
-import citizens from "./../../../../src/components/createCitizens.tsx";
-import eindhovenLogoString from "./../../../../src/assets/eindhoven-logo.txt";
+import Type from "./../../../src/components/type.tsx";
+import citizens from "./../../../src/components/createCitizens.tsx";
+import eindhovenLogoString from "./../../../src/assets/eindhoven-logo.txt";
 export const augmentedString = eindhovenLogoString.split("").map((letter, index) => ({
   letter,
   citizen: Object.values(citizens.nl)[index % Object.keys(citizens.nl).length]

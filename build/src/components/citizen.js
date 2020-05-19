@@ -1,8 +1,8 @@
 import React, {useState, useMemo, useEffect} from "react";
-import citizens from "./../../../../src/components/createCitizens.tsx";
-import MapChart2 from "./../../../../src/components/MapChart.tsx";
-import Nav from "./../../../../src/components/nav.tsx";
-import Profile from "./../../../../src/components/profile.tsx";
+import citizens from "./../../../src/components/createCitizens.tsx";
+import MapChart2 from "./../../../src/components/MapChart.tsx";
+import Nav from "./../../../src/components/nav.tsx";
+import Profile from "./../../../src/components/profile.tsx";
 import SpeechSynthesis from "react-speech-kit";
 const Derouleur = ({array}) => array.map(([key, value]) => React.createElement(React.Fragment, null, React.createElement("span", {
   key

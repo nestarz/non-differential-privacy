@@ -6,7 +6,7 @@
   "devDependencies": {},
   "dependencies": {
     "@eliaspourquoi/heritage": "^0.1.9",
-    "esdev": "^0.1.0"
+    "esdev": "^0.1.1"
   },
   "webDependencies": {
     "es-module-shims": "0.4.6",

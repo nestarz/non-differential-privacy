@@ -20,10 +20,10 @@ esbuild@^0.2.11:
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.2.12.tgz#77db901f471de7e8732729ff928ffc12687be453"
   integrity sha512-+PMODPa6MshZlZryeNeXxqdHF2A4phUe1AIBDAPqgHWAe5N/9IqrmCcE6RVDei0caMV7D9EBMEuY/X8+Wp5xiw==
 
-esdev@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/esdev/-/esdev-0.1.0.tgz#07fb915e6e66b57322df2188752486c366507a65"
-  integrity sha512-v7F6OYsNzB91DeKRLK4C5wF9Isg2dRsqex+NcoC2SM3sHVF7k8e6fakO+Zf+PUidTD+0oUL3p37yGDAHmV54iQ==
+esdev@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/esdev/-/esdev-0.1.1.tgz#0240b7b816c55fa58ff2408e272fd9334c3e7090"
+  integrity sha512-51W+T+9ZcyF3plJZZY/5jH62hbc79pGYsZ3NL5Jug6qc4T8L/uZ18hoApvCULVnWYYSfSUwWTBU2D8uCty0qNA==
   dependencies:
     acorn "^7.2.0"
     esbuild "^0.2.11"

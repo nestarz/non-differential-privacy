@@ -1,5 +1,5 @@
 import faker2 from "faker";
-import eindhovenLogoString from "./../../../../src/assets/eindhoven-logo.txt";
+import eindhovenLogoString from "./../../../src/assets/eindhoven-logo.txt";
 faker2.locale = "nl";
 const pick = (array) => array[Math.floor(Math.random() * array.length)];
 const origins = ["Nederland", "Indonesië/Nederlands-Indië", "België", "Turkije", "Marokko", "Angelsaksische landen", "Duitstalige landen", "Scandinavische landen", "Mediterrane landen", "Midden- en oost Europa", "Arabische landen", "Latijns Amerika", "Sub-Sahara-Afrika", "Zuid-Azië", "Centraal-Azië", "Zuidoost-Azië en de Pacific", "Oost-Azië", "Voormalige West-Indische koloniën"];

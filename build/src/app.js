@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import {Router} from "@reach/router";
-import Home from "./../../../../src/components/home.tsx";
-import About from "./../../../../src/components/about.tsx";
-import Citizen from "./../../../../src/components/citizen.tsx";
+import Home from "./../../src/components/home.tsx";
+import About from "./../../src/components/about.tsx";
+import Citizen from "./../../src/components/citizen.tsx";
 const FirstInteraction = ({children = null}) => {
   const [clicked, setClicked] = useState(false);
   return clicked ? children : React.createElement("button", {

@@ -1,7 +1,7 @@
 import React from "react";
-import Type from "./../../../../src/components/type.tsx";
-import aboutString from "./../../../../src/assets/description-150520.txt";
-const texts = [`A candidate platform to host this tool ssswas a <b>web</b> application, with displayed visualizations.
+import Type from "./../../../src/components/type.tsx";
+import aboutString from "./../../../src/assets/description-150520.txt";
+const texts = [`A candidate platform to host this tool was a <b>web</b> application, with displayed visualizations.
   Web because it's the most convenient platform to think of a real-time surveillance of 
     Internationals platform.`, ``, "", "", `A map to localize the Internationals in Eindhoven was found from the CBS archive and 
     used to place geo annotations on the map of possible position of the individual.`, `A basic radar chart has been added to represent the profile of the current individual, the revenue he might earn, his employment rate, 
