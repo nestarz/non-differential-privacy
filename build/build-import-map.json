@@ -1,1 +1,18 @@
-{"imports":{"../src/app.tsx":"../build/src/app.js","../src/assets/description-150520 copy.txt":"../build/src/assets/description-150520 copy.js","../src/assets/description-150520.txt":"../build/src/assets/description-150520.js","../src/assets/eindhoven-logo.txt":"../build/src/assets/eindhoven-logo.js","../src/components/MapChart.tsx":"../build/src/components/MapChart.js","../src/components/about.tsx":"../build/src/components/about.js","../src/components/citizen.tsx":"../build/src/components/citizen.js","../src/components/createCitizens.tsx":"../build/src/components/createCitizens.js","../src/components/firstInteraction.tsx":"../build/src/components/firstInteraction.js","../src/components/home.tsx":"../build/src/components/home.js","../src/components/nav.tsx":"../build/src/components/nav.js","../src/components/profile.tsx":"../build/src/components/profile.js","../src/components/type.tsx":"../build/src/components/type.js","../src/hooks/useAudio.ts":"../build/src/hooks/useAudio.js"}}
+{
+  "imports": {
+    "../src/app.tsx": "../build/src/app.js",
+    "../src/assets/description-150520 copy.txt": "../build/src/assets/description-150520 copy.js",
+    "../src/assets/description-150520.txt": "../build/src/assets/description-150520.js",
+    "../src/assets/eindhoven-logo.txt": "../build/src/assets/eindhoven-logo.js",
+    "../src/components/MapChart.tsx": "../build/src/components/MapChart.js",
+    "../src/components/about.tsx": "../build/src/components/about.js",
+    "../src/components/citizen.tsx": "../build/src/components/citizen.js",
+    "../src/components/createCitizens.tsx": "../build/src/components/createCitizens.js",
+    "../src/components/firstInteraction.tsx": "../build/src/components/firstInteraction.js",
+    "../src/components/home.tsx": "../build/src/components/home.js",
+    "../src/components/nav.tsx": "../build/src/components/nav.js",
+    "../src/components/profile.tsx": "../build/src/components/profile.js",
+    "../src/components/type.tsx": "../build/src/components/type.js",
+    "../src/hooks/useAudio.ts": "../build/src/hooks/useAudio.js"
+  }
+}

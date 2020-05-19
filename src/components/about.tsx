@@ -1,6 +1,6 @@
 import React from "react";
-import Type from "/src/components/type.tsx";
-import aboutString from "/src/assets/description-150520.txt";
+import Type from "../components/type.tsx";
+import aboutString from "../assets/description-150520.txt";
 
 const texts = [
   `A candidate platform to host this tool was a <b>web</b> application, with displayed visualizations.

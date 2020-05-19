@@ -1,8 +1,10 @@
 import React, { useRef, useMemo } from "react";
 import { navigate } from "@reach/router";
-import Type from "/src/components/type.tsx";
-import eindhovenLogoString from "/src/assets/eindhoven-logo.txt";
-import citizens from "/src/components/createCitizens.tsx";
+
+import Type from "./type.tsx";
+import citizens from "./createCitizens.tsx";
+
+import eindhovenLogoString from "../assets/eindhoven-logo.txt";
 
 export const augmentedString = eindhovenLogoString
   .split("")

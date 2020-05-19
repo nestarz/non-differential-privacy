@@ -1,6 +1,6 @@
 import React from "react";
 import {ComposableMap, Geographies, Geography, Annotation} from "react-simple-maps";
-import topoJson from "/src/assets/eindhoven.json";
+import topoJson from "./../../../../src/assets/eindhoven.json";
 const MapChart = ({strokeWidth = 0.25, name = "Eindhoven", lat = 2.3522, lng = 48.8566}) => {
   return React.createElement(ComposableMap, {
     viewBox: "0 0 800 800",

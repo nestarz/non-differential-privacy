@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "esdev": "0.0.21"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "@eliaspourquoi/heritage": "^0.1.8"
+    "@eliaspourquoi/heritage": "^0.1.8",
+    "esdev": "^0.1.0"
   },
   "webDependencies": {
     "es-module-shims": "0.4.6",

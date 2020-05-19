@@ -1,0 +1,4 @@
+{
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/Users/eliasrhouzlane/.asdf/installs/python/3.8.2/bin/python3"
+}

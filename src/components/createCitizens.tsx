@@ -1,5 +1,5 @@
 import faker from "faker";
-import eindhovenLogoString from "/src/assets/eindhoven-logo.txt";
+import eindhovenLogoString from "../assets/eindhoven-logo.txt";
 
 faker.locale = "nl";
 const pick = (array) => array[Math.floor(Math.random() * array.length)];

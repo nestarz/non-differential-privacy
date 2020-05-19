@@ -1,8 +1,9 @@
 import React, { useState, useMemo, useEffect } from "react";
-import citizens from "/src/components/createCitizens.tsx";
-import MapChart from "/src/components/MapChart.tsx";
-import Nav from "/src/components/nav.tsx";
-import Profile from "/src/components/profile.tsx";
+
+import citizens from "./createCitizens.tsx";
+import MapChart from "./MapChart.tsx";
+import Nav from "./nav.tsx";
+import Profile from "./profile.tsx";
 import SpeechSynthesis from "react-speech-kit";
 
 const Derouleur = ({ array }) =>
