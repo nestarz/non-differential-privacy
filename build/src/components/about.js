@@ -133,6 +133,6 @@ export default () => {
     }
   })))), React.createElement("video", {
     controls: true,
-    src: "/videoSrc/NonDifferentialPrivacy-170520.mp4"
+    src: "/video-src/NonDifferentialPrivacy-170520.mp4"
   }))));
 };

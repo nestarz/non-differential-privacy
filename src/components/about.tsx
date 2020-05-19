@@ -136,7 +136,7 @@ export default () => {
 
 
 
-                
+
                 `}</pre>}
                 <img
                   src={`/src/assets/screenshots/x${i}.${
@@ -154,7 +154,7 @@ export default () => {
           </div>
           <video
             controls
-            src="/videoSrc/NonDifferentialPrivacy-170520.mp4"
+            src="/video-src/NonDifferentialPrivacy-170520.mp4"
           ></video>
         </Type>
       </Type>
